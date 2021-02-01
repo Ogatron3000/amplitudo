@@ -1,0 +1,40 @@
+body {
+  color: #343a40;
+}
+
+h4 {
+  color: #e1e1e1;
+}
+
+img {
+  box-shadow: 2px 4px 10px #343a40;
+}
+
+td {
+  vertical-align: baseline;
+  width: 25%;
+}
+
+td:first-of-type {
+  width: 10%;
+}
+
+.form-control:focus {
+  border-color: #343a40;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(52, 58, 64, 0.6);
+}
+
+#sad {
+  font-size: 100px;
+  margin: auto;
+  color: #343a40;
+}
+
+svg {
+  fill: #343a40;
+}
+
+select option:hover {
+  box-shadow: 0 0 10px 100px red inset;
+}
